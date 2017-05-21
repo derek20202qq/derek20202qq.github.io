@@ -1,9 +1,12 @@
 #a{
-color :dimgray;
+color:dimgray;
+font-size:48px;
 }
 #b{
-color :gray;
+color:gray;
+font-size:32px;
 }
 #c{
-color :darkgray;
+color:darkgray;
+font-size:24px;
 }
