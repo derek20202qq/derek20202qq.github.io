@@ -1,17 +1,229 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<title> </title>
-</head>
-<body>
+<html lang="en">
 
-<p id="a">Github</p>
-<p id="b">A place where you</p>
-<p id="c">Create projects</p>
-<p id="d">And share</p>
-<p id="e">With the world</p>
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick way to go to websites</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background:dodgerblue; color:white">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" color:
+                    "blue">Here. <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Nothing here</a></li>
+                    <li><a href="#">Or here</a></li>
+                    <li><a href="#">Even here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Above here</a></li>
+                </ul>
+            </li>
+            <li><a href="#">連結</a></li>
+        </ul>
+        <div class="container">
+            <!-- 在這裡加上你的網站名稱或 LOGO 吧！ -->
+            <h1>Websites that I view</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h1>
+                <div class="col-md-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                      Google
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Google</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Search things that you want to know.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com.tw/" target=_new class="btn btn-success">Google</a>
+                    <a href="https://www.google.com.tw/" target=_new class="btn btn-success">Google</a>
+                    <a href="https://www.google.com.tw/" target=_new class="btn btn-success">Google</a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal2">
+                      Youtube
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Youtube</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Search videos and watch them.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.youtube.com/?gl=TW" target=_new class="btn btn-danger">Youtube</a>
+                    <a href="https://www.youtube.com/?gl=TW" target=_new class="btn btn-danger">Youtube</a>
+                    <a href="https://www.youtube.com/?gl=TW" target=_new class="btn btn-danger">Youtube</a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-1">
+                
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">
+                      Facebook
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Facebook</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Share your things and contact friends.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://zh-tw.facebook.com/" target=_new class="btn btn-info">Facebook</a>
+                    <a href="https://zh-tw.facebook.com/" target=_new class="btn btn-info">Facebook</a>
+                    <a href="https://zh-tw.facebook.com/" target=_new class="btn btn-info">Facebook</a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal4">
+                      Scratch
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Scratch</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Imagine, program, share.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://scratch.mit.edu/" target=_new class="btn btn-warning">Scratch</a>
+                    <a href="https://scratch.mit.edu/" target=_new class="btn btn-warning">Scratch</a>
+                    <a href="https://scratch.mit.edu/" target=_new class="btn btn-warning">Scratch</a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal5">
+                      Yahoo
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Yahoo</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Search things and news.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://tw.yahoo.com" target=_new class="btn btn-primary">Yahoo</a>
+                    <a href="https://tw.yahoo.com" target=_new class="btn btn-primary">Yahoo</a>
+                    <a href="https://tw.yahoo.com" target=_new class="btn btn-primary">Yahoo</a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal6">
+                      Wiki
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Wiki</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Search things and news.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://zh.wikipedia.org/zh-tw/Wiki" target=_new class="btn btn-default">Wiki</a>
+                    <a href="https://zh.wikipedia.org/zh-tw/Wiki" target=_new class="btn btn-default">Wiki</a>
+                    <a href="https://zh.wikipedia.org/zh-tw/Wiki" target=_new class="btn btn-default">Wiki</a>
+                </div>
+            </h1>
+        </div>
+    </div>
 
 </body>
-</html>
 
+</html>
